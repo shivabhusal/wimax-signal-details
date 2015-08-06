@@ -1,0 +1,23 @@
+html{
+	width: 300px;
+}
+.main-controller{
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+}
+.row{
+	width: 100%;
+	padding: 2px 4px;
+	display: block;
+	float: left;
+}
+.row div:first-child{
+	width: 45%;
+	text-align: right;
+	margin-right: 5px;
+}
+.row div{
+	width: 45%;
+	float: left;
+}

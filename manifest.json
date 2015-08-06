@@ -11,6 +11,12 @@
   },
   "permissions": [
     "activeTab",
-    "https://ajax.googleapis.com/"
-  ]
+    "https://ajax.googleapis.com/",
+	"http://192.168.1.1/",
+	"<all_urls>"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+}
 }
